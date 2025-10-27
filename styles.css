@@ -1,0 +1,83 @@
+body {
+    background-color: powderblue;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    background-color: white; color: black; border: solid black;
+}
+
+.logo {
+    background-color: yellow;
+    color: aqua;
+    padding: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav {
+    background-color: bisque;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 30px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+button {
+    background-color: limegreen;
+    color: azure;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+input {
+    margin: 5px;
+    padding: 8px;
+    width: 100px;
+}
+
+#intro {
+    background-color: powderblue;
+}
+
+#BMIResult, #calorieTotal {
+    margin-top: 15px;
+    font-weight: bold;
+}

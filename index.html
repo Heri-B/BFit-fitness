@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fitness Application</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="logo">
+            <h1>BFit Fitness</h1>
+        </div>
+        <section id="Intro">
+            <h2>Welcome to BFit!</h2>
+        <p>Welcome to the BFit fitness web application! This application was created to help users improve their health and stay on track with their fitness goals. Here you can calculate your Body Mass Index (BMI), log your calories, and take steps towards a healthier lifestyle.</p>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">BMI Calculator</a></li>
+                <li><a href="">Calorie Tracker</a></li>
+            </ul>
+        </nav>
+        
+        <form>
+            <fieldset>
+        <section id="BMI-section">
+            <h2>BMI Calculator</h2>
+            <label for="feet">Height:</label>
+            <input type="number" id="feet" placeholder="Feet">
+            <input type="number" id="inches" placeholder="Inches">
+
+            <label for="weight">Weight (lbs):</label>
+            <input type="number" id="weight" placeholder="Pounds">
+
+            <button type="button" onclick="calculateBMI()">Calculate BMI</button>
+            <p id="BMIResult"></p>
+        </section>
+
+        <section id="Calorie-section">
+            <h2>Calorie Tracker</h2>
+            <label for="food">Food Item:</label>
+            <input type="text" id="food" placeholder="Food Item">
+
+            <label for="calories">Calories:</label>
+            <input type="number" id="calories" placeholder="Calories">
+
+            <button type="button" onclick="addCalories()">Add</button>
+
+            <ul id="calorie-list"></ul>
+            <p id="calorieTotal">Total Calories: 0</p>
+        </section>
+            </fieldset>
+        </form>
+
+        <script src="script.js"></script>
+    </body>
+</html>
