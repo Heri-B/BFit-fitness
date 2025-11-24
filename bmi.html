@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Calculator - BFit</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <div class="logo">
+        <h1>BFit Fitness</h1>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bmi.html">BMI Calculator</a></li>
+            <li><a href="calories.html">Calorie Tracker</a></li>
+        </ul>
+    </nav>
+
+    <section id="BMI-section">
+        <h2>BMI Calculator</h2>
+
+        <label for="feet">Height:</label>
+        <input type="number" id="feet" placeholder="Feet">
+        <input type="number" id="inches" placeholder="Inches">
+
+        <label for="weight">Weight (lbs):</label>
+        <input type="number" id="weight" placeholder="Pounds">
+
+        <button type="button" onclick="calculateBMI()">Calculate BMI</button>
+
+        <p id="BMIResult"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

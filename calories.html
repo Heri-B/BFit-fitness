@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calorie Tracker - BFit</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <div class="logo">
+        <h1>BFit Fitness</h1>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bmi.html">BMI Calculator</a></li>
+            <li><a href="calories.html">Calorie Tracker</a></li>
+        </ul>
+    </nav>
+
+    <section id="Calorie-section">
+        <h2>Calorie Tracker</h2>
+
+        <label for="food">Food Item:</label>
+        <input type="text" id="food" placeholder="Food Item">
+
+        <label for="calories">Calories:</label>
+        <input type="number" id="calories" placeholder="Calories">
+
+        <button type="button" onclick="addCalories()">Add</button>
+
+        <ul id="calorie-list"></ul>
+        <p id="calorieTotal">Total Calories: 0</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
