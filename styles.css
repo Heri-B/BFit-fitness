@@ -91,7 +91,7 @@ input {
 }
 
 .bmi-page {
-    background-color: #ffe0b2;
+    background-color: black;
 }
 
 .bmi-page h2 {
@@ -116,11 +116,4 @@ input {
     width: 100%;
     border-radius: 8px;
     border: 2px white;
-}
-
-
-.bottom-right {
-    float: right;
-    width: 150px;
-    margin: 10px;
 }
